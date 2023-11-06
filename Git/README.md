@@ -1,3 +1,3 @@
-# Curso Digital: Git
+# Curso Digital: Git/Versionamentos
 
-## Gravando mudanças
+## Salvando modificações no Git
