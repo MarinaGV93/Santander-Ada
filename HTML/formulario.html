@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <!-- Action = a açao que vai executar  -->
+        <form action="">
+            <div>
+                <!-- Texto para quem (id do input) -->
+                <label for="texto">Nome:</label>
+                <!-- Imputar com o tipo texto -->
+                <!-- Placeholder = texto de sugestão -->
+                <!-- Value = o conteúdo que vai estar dentro -->
+                <!-- Name = identificar para o JS -->
+                <input type="text" id="texto" placeholder="Informe o seu nome..." value="Marina" name="nome" id="nome"> 
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <!-- Tipo senha -->
+                <input type="password" name="senha" id="senha">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <!-- Tipo email -->
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="numero">Número:</label>
+                <!-- Tipo número -->
+                <input type="number" name="numero" id="numero">
+            </div>
+
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <!-- Tipo data -->
+                <input type="date" name="data" id="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <!-- Tipo hora -->
+                <input type="time" name="hora" id="hora">
+            </div>
+            
+            <div>
+                <label for="arquivo">Arquivo:</label>
+                <!-- Tipo arquivo -->
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+            
+            <div>
+                <label for="url">URL:</label>
+                <!-- Tipo url -->
+                <input type="url" name="url" id="url">
+            </div>
+
+            <div>
+                <label for="cor">Cor:</label> 
+                <!-- Tipo cor -->
+                <input type="color" name="cor" id="cor">
+            </div>
+
+            <div>
+                <label for="range">Range:</label>
+                <!-- Tipo range -->
+                <input type="range" name="range" id="range" value="100" max="200" min="100">
+            </div>
+
+            <div>
+                <label for="checkbox">Checkbox:</label>
+                <!-- Tipo checkbox -->
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </div>
+            
+            <div>
+                <label for="radio">Radio:</label>
+                <!-- Tipo radio -->
+                <input type="radio" name="radio" id="radio">
+            </div>
+
+            <div>
+                <!-- Lista suspensa -->
+                <select name="select" id="select">
+                    <!-- Opções -->
+                    <option value="" disabled>Selecione uma opção...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+             
+            <!-- Caixa de texto -->
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <!-- <label for="limpar">Limpar:</label> -->
+                <!-- Tipo limpar -->
+                <input type="reset" name="limpar" id="limpar" value="Limpar"> 
+            </div>
+
+            <div>
+                <!-- <label for="enviar">Enviar:</label> -->
+                <!-- Tipo enviar -->
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
