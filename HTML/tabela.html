@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas</h1>
+
+        <section id="estudantes">
+            <h2>Tabela alunos</h2>
+
+            <!-- Tabela -->
+            <table border="1">
+                <!-- Cabeçalho -->
+                <thead>
+                    <!-- Linha -->
+                    <tr>
+                        <!-- Célula -->
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo -->
+                <tbody>
+                    <tr>
+                        <td>Marina Golao Vale</td>
+                        <td>marinasgv@hotmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedro Oliveira</td>
+                        <td>p.oliveira@hotmail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carol Moura</td>
+                        <td>moura.carol@hotmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="financas">
+            <h2>Tabela finanças</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- Mesclar célula (linha). Colocar a quantidade de linha para mesclar -->
+                        <td rowspan="2">15/06/2022</td>
+
+                        <!-- Mesclar célula (coluna). Colocar a quantidade de coluna para mesclar -->
+                        <td colspan="2">Despesa</td>
+                        <!-- <td>Almoço</td> -->
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        <!-- <td>15/06/2022</td> -->
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
