@@ -1,4 +1,4 @@
-/* Modificar da página toda */
+/* Modificar a página toda */
 *{
     /* Margin */
     margin: 0;
@@ -7,20 +7,50 @@
     padding: 0;
 }
 
+/* Pseudocódigo */
+    /* Usa a medida REM */
+:root{
+    font-size: 62.5%; /* Medidas relativas. 62.5% virá 10px, pois 16px é o tamanho padrão, 16x62,5% = 10 */
+}
+
+/* Modificar body */
+body{
+    font-family: 'times new roman';
+}
+
+/* Todos cabeçalhos */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', arial, cursive;
+}
+
 h1{
-    /* Cor do texto */ 
+/* Cor do texto */ 
     color: #ff0000;
     /* Os 2 primeiros são R(ED). Os 2 do meio são G(reen). Os 2 últimos são B(lue) */
 
-    /* Tamanho fonte */
-    font-size: 96px;
+/* Tamanho fonte */
+     font-size: 96px; /* 96/10 = 9.6rem */
+    /* Relativo. Leva em consideração o root. O que for inserido por último, sempre vai subscrever o primeiro */
+    font-size: 9.6rem;
 
-    /* Largura fonte */
+    /* Se redefinir algum elemento pai e utiliza EM no filho, ele irá redefinir tudo */
+    /* .novo-em{
+        font-size: 300%;
+    }
+
+    .novo-em h2{
+        font-size: 3.2em;
+    } */
+
+/* Largura fonte */
     font-weight: 900;
+
+/* Família da fonte. Procura as fontes no computador na ordem. Não achando nenhuma, usa uma aleatória */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
-    font-size: 80px;
+    font-size: 8rem;
     color: blue;
 
     /* Estilizar texto */
@@ -37,18 +67,39 @@ h2{
 }
 
 p{
-    font-size: 18px;
+    font-size: 1.8rem;
 
     /* Recuo */
     text-indent: 90px;
 }
 
+a{
+    font-size: 2.4rem;
+    color: red;
+}
+
+/* Pseudo-classe */ 
+    /* Se visitado */
+a:visited{
+    color: aqua;
+}
+    /* Ao passar mouse. Sempre colocar por último para o navegador respeitar */
+a:hover{
+    color: blueviolet;
+}
+
 .bg{
-    /* Altura */
+/* Altura. A % só pode ser usada se especificar o tamanho em px no bloco que envolve a tag */
     height: 500px;
 
-    /* Largura */
+    /* VH faz a altura da página */
+    /* height: 100vh; */
+
+/* Largura. 100% da página. A % respeita o container pai, o que agrupa esses elementos*/
     width: 100%;
+
+    /* VW sempre vai usar em relação a página inteira */
+    /* width: 80vw; */
 
     /* Cor de fundo */
     background-color: blue;
