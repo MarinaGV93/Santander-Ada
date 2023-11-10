@@ -1,0 +1,73 @@
+/* Modificar da página toda */
+*{
+    /* Margin */
+    margin: 0;
+
+    /* Espaços dentro */
+    padding: 0;
+}
+
+h1{
+    /* Cor do texto */ 
+    color: #ff0000;
+    /* Os 2 primeiros são R(ED). Os 2 do meio são G(reen). Os 2 últimos são B(lue) */
+
+    /* Tamanho fonte */
+    font-size: 96px;
+
+    /* Largura fonte */
+    font-weight: 900;
+}
+
+h2{
+    font-size: 80px;
+    color: blue;
+
+    /* Estilizar texto */
+    font-style: italic;
+    
+    /* Efeitos no texto */
+    text-decoration:line-through;
+
+    /* Caixa alta ou baixa */
+    text-transform: uppercase;
+
+    /* Alinhamento */
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+
+    /* Recuo */
+    text-indent: 90px;
+}
+
+.bg{
+    /* Altura */
+    height: 500px;
+
+    /* Largura */
+    width: 100%;
+
+    /* Cor de fundo */
+    background-color: blue;
+
+    /* Imagem de fundo */
+    background-image: url('https://images.unsplash.com/photo-1682695796954-bad0d0f59ff1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    /* Tamanho de fundo */
+/* Capa. A imagem é cortada */
+    background-size: cover;
+/* Container. A imagem é repetida */
+    /* background-size: contain; */
+/* Para não repetir */
+    /* background-repeat: no-repeat; */
+
+    /* Posição do fundo */
+    /* background-position: center; */
+
+    /* Fundo fixo */
+    background-attachment: fixed;
+
+}
