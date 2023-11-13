@@ -5,6 +5,9 @@
 
     /* Espaços dentro */
     padding: 0;
+
+    /* Preserva as dimersões quando usar padding */
+    box-sizing:border-box;
 }
 
 /* Pseudocódigo */
@@ -17,6 +20,28 @@
 body{
     font-family: 'times new roman';
 }
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    font-size: 2.4rem;
+
+    /* Estilização dentro da caixa */
+    border-collapse: separate; /* Padrão */
+}
+
+/* Estilizar somente cabeçalho */
+    table tr:first-child{ /* Primeiro elemento */
+        background-color: steelblue;
+        color: #fff;
+    }
+
+/* Todas as linhas pares, com estilização diferente*/
+    table tr:nth-child(2n + 3){ /* Seleciona elementos com base nas posições a partir da 3ª linha*/
+    background-color: #999;
+    }
 
 /* Todos cabeçalhos */
 h1, h2, h3, h4, h5, h6{
@@ -64,6 +89,9 @@ h2{
 
     /* Alinhamento */
     text-align: center;
+}
+h3{
+    font-size: 2.4rem;
 }
 
 p{
@@ -120,5 +148,51 @@ a:hover{
 
     /* Fundo fixo */
     background-attachment: fixed;
+
+}
+
+ul, ol{
+    padding-left: 3.6rem;
+}
+
+ul{
+    list-style:square;
+}
+
+ol{
+    list-style: lower-latin;
+}
+
+li{
+    font-size: 2.4rem;
+}
+
+.box{
+    height: 10rem;
+    width: 20rem;
+    color:black;
+    font-size: 2.4rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 4px solid royalblue;
+
+    /* Arredondar pontas das bordas */
+    border-radius: 10px;
+    background-color: aquamarine;
+    
+/* Não permite que coloque algo do lado */
+    /* display: block; */
+
+/* Encaixa algo do lado se couber*/
+    display: inline-block;
+
+    /* display: inline; Não respeita height e width*/
+}
+
+img{
+/* Não permite que coloque do lado */
+    /* display: block; */
+
+    height: 10rem;
 
 }
