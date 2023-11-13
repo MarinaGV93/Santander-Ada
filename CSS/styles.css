@@ -21,6 +21,37 @@ body{
     font-family: 'times new roman';
 }
 
+main{
+/* Mesma altura do nav */
+    padding-top: 7rem;
+}
+
+nav.menu{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 7rem;
+
+/* Colocar prioridade maior que outros elementos */
+    z-index: 1;
+}
+
+.contact-list{
+    position: relative;
+}
+
+.contact-list h3{
+    top: 7rem;
+/* Ao passar o scroll e parar no h3, ele fica fixo */
+    position: sticky;
+
+/* Não se usa mais */
+    /* float: ...;
+    clear: ...; */
+
+    background-color: crimson;
+}
+
 table, td, th{
     border: 1px solid black;
 }
@@ -167,7 +198,25 @@ li{
     font-size: 2.4rem;
 }
 
+.boxes{
+/* Impedir que o position: absolute coloque no inicio do layout, deixando que conte o left, top.... em que estiver o absolute */
+    position: relative;
+
+/* Encaixa tudo em linha*/
+    display: flex;
+
+/* Os itens são quebrados em multiplas linhas*/
+    flex-wrap: wrap;
+}
+
+/* Span que vem depois do box */
+.box + span{
+    display: none;
+}
+
 .box{
+/* Quebra */
+    flex: 30%;
     height: 10rem;
     width: 20rem;
     color:black;
@@ -187,6 +236,27 @@ li{
     display: inline-block;
 
     /* display: inline; Não respeita height e width*/
+
+/* Static vem por padrão. Não posibilita que os elementos tenham left, top... */
+    position: static;
+}
+
+.box:nth-child(1){
+/* Coloca por trás de outra. Não vai ocupar espaço em tela. Se tiver absolute e os elementos pai não tem  declarado uma position, ele vai pro começo do layout*/
+    /* position: absolute; */
+    top: 20px;
+    left: 100px;
+}
+
+/* .box:nth-child(2){
+/* Deixar fixo no inicio (topo) do layout 
+    position: fixed;
+    top: 15px;
+    left: 30px;
+} */
+
+.box:nth-child(n + 2){
+    /* display: none; */
 }
 
 img{
