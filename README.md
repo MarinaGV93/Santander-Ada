@@ -11,7 +11,7 @@
 
 <h4 align="center">🚧 Projeto em construção... 🚧</h4>
 
-<p>Nesse repositório tem o passo a passo do que foi aprendido na fase 2 do programa Santander Coders 2023 na Trilha Web Front-End.</p>
+<p>Nesse repositório tem o passo a passo do que foi aprendido na fase 2 do programa Santander Coders 2023 na Trilha Web Front-End em parceria com a Ada.</p>
 
 <!-- Shields -->
 
@@ -88,5 +88,8 @@ Esse repositório está licenciado pela [MIT LICENSE](https://github.com/MarinaG
 
 <br>
 
-
 [⬆️ Topo](#title)
+
+##### Desenvolvido por Marina Golao Vale 💙
+
+
