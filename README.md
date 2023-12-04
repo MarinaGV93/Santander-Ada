@@ -5,7 +5,7 @@
 
 <div id="cover" align="center">
 
-  ![Santander Coders 2023](https://shre.ink/TjIa "Santander Coders 2023")
+  ![Santander Coders 2023](https://portal.unit.br/wp-content/uploads/2023/09/image001-1024x576.jpg "Santander Coders 2023")
 
 </div>
 
