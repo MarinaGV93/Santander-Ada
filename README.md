@@ -35,11 +35,11 @@
 
 ## 💻 Técnologias utilizadas
 
-* [Git]()
-* [HTML]()
-* [CSS]()
-* [JavaScript]()
-* [React]()
+* [Git](https://git-scm.com/)
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
+* [React](https://react.dev/)
 
 <br>
 
