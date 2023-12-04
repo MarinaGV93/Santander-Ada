@@ -33,7 +33,7 @@
 </div>
 <br>
 
-## 💻 Técnologias utilizadas
+## 💻 Tecnologias utilizadas
 
 * [Git](https://git-scm.com/)
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/)
