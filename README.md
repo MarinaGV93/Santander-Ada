@@ -9,8 +9,6 @@
 
 </div>
 
-<h4 align="center">🚧 Projeto em construção... 🚧</h4>
-
 <p>Nesse repositório tem o passo a passo do que foi aprendido na fase 2 do programa Santander Coders 2023 na Trilha Web Front-End em parceria com a Ada.</p>
 
 <!-- Shields -->
@@ -58,7 +56,7 @@ Além disto, é bom ter um editor na sua máquina para trabalhar com o código, 
 
 <div id="table" align="center">
 
-| HTML <img src="https://shre.ink/TjIp" alt="HTML" width="45px" align="center"> | CSS <img src="https://shre.ink/Tjy4" alt="CSS" width="40px" align="center"> | JavaScript <img src="https://shre.ink/Tjy0" alt="JavaScript" width="40px" align="center"> | React <img src="https://shre.ink/TjyJ" alt="React" width="50px" align="center"> |
+| HTML <img src="https://abre.ai/hMC8" alt="HTML" width="45px" align="center"> | CSS <img src="https://abre.ai/hMC0" alt="CSS" width="40px" align="center"> | JavaScript <img src="https://abre.ai/hMC5" alt="JavaScript" width="40px" align="center"> | React <img src="https://abre.ai/hMCN" alt="React" width="50px" align="center"> |
 | :----: | :---: | :----------: | :-----: |
 | [Começando](https://shre.ink/Tjyw) | [Projeto](https://shre.ink/Tjyp) | [Començando](https://shre.ink/Tjys) | []() |
 | [Barra de Navegação](https://shre.ink/TjaY) | [Grid](https://shre.ink/Tja4) | [Variáveis](https://shre.ink/TjaH) | []() |
